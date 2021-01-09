@@ -4,7 +4,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 881px;
+  min-height: 838px;
 }
 
 .u-section-1 .u-group-1 {
@@ -27,35 +27,22 @@
   margin: 7px 0 0;
 }
 
-.u-section-1 .u-image-1 {
-  width: 188px;
-  height: 188px;
-  background-image: url("images/hires.jpg");
-  background-position: 50% 50%;
-  margin: -203px auto 0 -49px;
-}
-
 .u-section-1 .u-text-3 {
   font-size: 1.5rem;
   width: 417px;
-  margin: 58px auto 0;
+  margin: 43px auto 0;
 }
 
 .u-section-1 .u-custom-html-1 {
   min-height: 57px;
-  margin-top: 30px;
-  margin-bottom: 43px;
+  margin-top: -15px;
+  margin-bottom: 45px;
+  height: auto;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 726px;
-  }
-
-  .u-section-1 .u-image-1 {
-    margin-top: -73px;
-    margin-right: -34px;
-    margin-left: auto;
+    min-height: 691px;
   }
 
   .u-section-1 .u-text-3 {
@@ -66,13 +53,12 @@
     min-height: 156px;
     margin-top: -16px;
     margin-bottom: 0;
-    height: auto;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 556px;
+    min-height: 529px;
   }
 
   .u-section-1 .u-group-1 {
@@ -87,15 +73,11 @@
   .u-section-1 .u-text-1 {
     margin-left: 49px;
   }
-
-  .u-section-1 .u-image-1 {
-    margin-right: 0;
-  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 417px;
+    min-height: 397px;
   }
 
   .u-section-1 .u-group-1 {
@@ -114,7 +96,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 263px;
+    min-height: 250px;
   }
 
   .u-section-1 .u-group-1 {
@@ -125,22 +107,22 @@
     width: 320px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 521px;
+  min-height: 592px;
 }
 
 .u-section-2 .u-image-1 {
   width: 570px;
   height: 499px;
-  margin: -35px auto 0 0;
+  margin: -39px auto 0 0;
 }
 
 .u-section-2 .u-layout-wrap-1 {
   width: 766px;
-  margin: -356px 0 0 auto;
+  margin: -352px 0 30px auto;
 }
 
 .u-section-2 .u-layout-cell-1 {
-  min-height: 423px;
+  min-height: 464px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -149,7 +131,7 @@
 
 .u-section-2 .u-group-1 {
   width: 537px;
-  min-height: 333px;
+  min-height: 374px;
   background-image: none;
   margin: 20px auto 0 0;
 }
@@ -158,12 +140,20 @@
   padding: 30px 60px 30px 35px;
 }
 
+.u-section-2 .u-image-2 {
+  width: 127px;
+  height: 127px;
+  background-image: url("images/hires.jpg");
+  background-position: 50% 50%;
+  margin: -6px auto 0 0;
+}
+
 .u-section-2 .u-text-1 {
-  margin: 55px 0 0;
+  margin: 0;
 }
 
 .u-section-2 .u-text-2 {
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 @media (max-width: 1199px) {
@@ -178,13 +168,23 @@
 
   .u-section-2 .u-layout-wrap-1 {
     width: 820px;
-    margin-top: -268px;
+    margin-top: -264px;
     margin-left: 60px;
   }
 
   .u-section-2 .u-group-1 {
     width: 443px;
     margin-left: -101px;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-top: -116px;
+    margin-right: 62px;
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 110px;
   }
 }
 
@@ -199,7 +199,7 @@
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: -172px;
+    margin-top: -168px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -227,7 +227,7 @@
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: -93px;
+    margin-top: -89px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -252,6 +252,14 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-2 .u-image-2 {
+    margin-top: -156px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 150px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -265,7 +273,7 @@
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: -6px;
+    margin-top: -2px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -278,13 +286,21 @@
   .u-section-2 .u-group-1 {
     width: 302px;
   }
+
+  .u-section-2 .u-image-2 {
+    margin-top: -106px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 100px;
+  }
 }.u-section-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/soccer-field-4321814_1920.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 663px;
+  min-height: 573px;
 }
 
 .u-section-3 .u-slider-1 {
@@ -305,17 +321,18 @@
 .u-section-3 .u-icon-1 {
   height: 64px;
   width: 64px;
-  margin: 0 auto;
+  margin: 24px auto 0 124px;
 }
 
 .u-section-3 .u-text-1 {
   font-style: italic;
-  margin: -51px 144px 0 408px;
+  margin: -50px 340px 0 212px;
 }
 
 .u-section-3 .u-text-2 {
   font-size: 1.125rem;
-  margin: 98px 0 0;
+  background-image: none;
+  margin: 38px 0 0;
 }
 
 .u-section-3 .u-btn-1 {
@@ -361,13 +378,13 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 547px;
+    min-height: 472px;
   }
 
   .u-section-3 .u-text-1 {
     margin-top: -42px;
     margin-right: 114px;
-    margin-left: 308px;
+    margin-left: 112px;
   }
 
   .u-section-3 .u-text-2 {
@@ -382,7 +399,7 @@
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 419px;
+    min-height: 362px;
   }
 
   .u-section-3 .u-slider-1 {
@@ -396,7 +413,7 @@
 
   .u-section-3 .u-text-1 {
     margin-right: 96px;
-    margin-left: 232px;
+    margin-left: 52px;
   }
 
   .u-section-3 .u-container-layout-2 {
@@ -407,7 +424,7 @@
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 314px;
+    min-height: 272px;
   }
 
   .u-section-3 .u-slider-1 {
@@ -421,7 +438,7 @@
 
   .u-section-3 .u-text-1 {
     margin-right: 76px;
-    margin-left: 92px;
+    margin-left: 0;
   }
 
   .u-section-3 .u-container-layout-2 {
@@ -432,7 +449,7 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 198px;
+    min-height: 171px;
   }
 
   .u-section-3 .u-slider-1 {
@@ -445,6 +462,5 @@
 
   .u-section-3 .u-text-1 {
     margin-right: 47px;
-    margin-left: 0;
   }
 }
