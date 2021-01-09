@@ -187,22 +187,22 @@
   margin: 61px 0 0;
 }
 
-.u-section-2 .u-text-2 {
-  margin: 8px 0 0;
-}
-
 .u-section-2 .u-image-2 {
-  width: 195px;
-  height: 195px;
+  width: 122px;
+  height: 122px;
   background-image: url("images/hires.jpg");
   background-position: 50% 50%;
   animation-duration: 2000ms;
-  margin: -533px 413px 60px auto;
+  margin: -114px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  margin: 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 621px;
+    min-height: 629px;
   }
 
   .u-section-2 .u-image-1 {
@@ -224,7 +224,7 @@
 
   .u-section-2 .u-group-1 {
     width: 443px;
-    min-height: 355px;
+    min-height: 424px;
     margin-top: 0;
     margin-right: -8px;
   }
@@ -233,19 +233,19 @@
     margin-top: 121px;
   }
 
-  .u-section-2 .u-text-2 {
-    margin-top: 0;
+  .u-section-2 .u-image-2 {
+    margin-top: -164px;
+    margin-left: 0;
   }
 
-  .u-section-2 .u-image-2 {
-    margin-top: -556px;
-    margin-right: 341px;
+  .u-section-2 .u-text-2 {
+    margin-top: 42px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 565px;
+    min-height: 642px;
   }
 
   .u-section-2 .u-image-1 {
@@ -274,29 +274,38 @@
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: 13px;
+    margin-top: 97px;
   }
 
   .u-section-2 .u-image-2 {
-    margin-top: -516px;
-    margin-right: 109px;
+    width: 94px;
+    height: 94px;
+    margin-top: -140px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 46px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 547px;
+    min-height: 581px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    width: 450px;
-    margin-top: -48px;
+    width: 416px;
+    margin-top: -153px;
     margin-right: 0;
-    margin-left: 45px;
+    margin-left: auto;
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 341px;
+    min-height: 373px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -305,29 +314,27 @@
   }
 
   .u-section-2 .u-group-1 {
-    width: 390px;
-    min-height: 279px;
-    margin-top: -46px;
+    min-height: 333px;
+    margin-top: 0;
+    margin-right: auto;
   }
 
   .u-section-2 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px 10px 4px;
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: -9px;
-  }
-
-  .u-section-2 .u-text-2 {
-    margin-top: 5px;
+    margin-top: 115px;
   }
 
   .u-section-2 .u-image-2 {
-    width: 154px;
-    height: 154px;
-    margin-top: -461px;
-    margin-right: 95px;
+    width: 104px;
+    height: 104px;
+    margin-top: -143px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 39px;
   }
 }
 
@@ -337,47 +344,42 @@
   }
 
   .u-section-2 .u-image-1 {
-    width: 217px;
-    height: 217px;
-    margin-right: 0;
-    margin-left: auto;
+    width: 152px;
+    height: 152px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: 18px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 324px;
+    margin-top: -51px;
+    margin-bottom: 10px;
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 348px;
+    min-height: 450px;
   }
 
   .u-section-2 .u-group-1 {
-    width: 302px;
-    min-height: 332px;
-    margin-right: 0;
+    width: 310px;
+    min-height: 380px;
+    margin-right: 10px;
   }
 
   .u-section-2 .u-container-layout-2 {
-    padding-bottom: 0;
+    padding-bottom: 7px;
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: 10px;
-  }
-
-  .u-section-2 .u-text-2 {
-    margin-top: 16px;
+    margin-top: 110px;
   }
 
   .u-section-2 .u-image-2 {
-    width: 133px;
-    height: 133px;
-    margin-top: -507px;
-    margin-right: auto;
-    margin-left: 18px;
+    width: 94px;
+    height: 94px;
+    margin-top: -138px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 44px;
   }
 }.u-section-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/soccer-field-4321814_1920.jpg");
@@ -516,10 +518,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-3 {
-    background-position: 50% 50%;
-  }
-
   .u-section-3 .u-sheet-1 {
     min-height: 549px;
   }
