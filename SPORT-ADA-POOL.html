@@ -44,11 +44,11 @@
               <script> $.getJSON('https://js.adapools.org/pools/9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19/summary.json', function(data) { 
 $.each( data.data, function( i, val ) { 
 		a=new Array('tax_fix','pledge','total_stake');
-		if(a.includes(i))  val=Math.round(parseInt(val)/1000000);
+		if(a.includes(i))  val=Math.round(parseInt(val)/1000000000);
 		if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
 		$('#9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_'+i).html(val).text();   
 }); 
-		}); </script> Total Stake: <span id="9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_total_stake"></span>Million<br> Tax Ratio: <span id="9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_tax_ratio"></span>%<br> Lifetime ROA: <span id="9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_roa_lifetime"></span>%<br> Blocks Lifetime: <span id="9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_blocks_lifetime"></span>
+		}); </script> Total Stake: <span id="9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_total_stake"></span> k<br> Tax Ratio: <span id="9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_tax_ratio"></span>%<br> Lifetime ROA: <span id="9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_roa_lifetime"></span>%<br> Blocks Lifetime: <span id="9fa36f8ef20fb222a4cc159c14d8ba3375ea2b83093859cf006b8b19_blocks_lifetime"></span>
               <br>
             </div>
           </div>

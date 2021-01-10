@@ -10,7 +10,6 @@
 .u-section-1 .u-group-1 {
   width: 878px;
   min-height: 594px;
-  height: auto;
   margin: 101px auto 0;
 }
 
@@ -31,7 +30,6 @@
 .u-section-1 .u-custom-html-1 {
   min-height: 131px;
   animation-duration: 1000ms;
-  height: auto;
   margin: 40px 250px 0 0;
 }
 
@@ -57,6 +55,7 @@
 
   .u-section-1 .u-custom-html-1 {
     min-height: 100px;
+    height: auto;
     width: 780px;
     margin-top: 95px;
     margin-right: 0;
